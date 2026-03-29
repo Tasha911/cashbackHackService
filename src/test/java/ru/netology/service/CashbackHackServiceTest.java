@@ -1,12 +1,10 @@
 package ru.netology.service;
 
-import org.testng.annotations.Test;
-
 import static org.testng.Assert.*;
 
 public class CashbackHackServiceTest {
 
-    @Test
+    @org.testng.annotations.Test
     public void remain() {
         CashbackHackService cashbackHackService = new CashbackHackService();
         int amount = 900;
